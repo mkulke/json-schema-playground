@@ -1,0 +1,20 @@
+{
+  "id":"#user",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "name": {"type":"string"},
+    "age": {"type":"number"},
+    "address": {
+      "type":"object",
+      "properties": {
+        "number": {"type":"number"},
+        "street": {"type":"string"},
+        "city": {"type":"string"}
+      }
+    }
+  },
+  "required": [
+    "name"
+  ]
+}
